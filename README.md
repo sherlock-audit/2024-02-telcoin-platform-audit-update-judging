@@ -74,6 +74,14 @@ ERC20s that enforce blacklists normally prevent a sanctioned address from being 
 
 The protocol team fixed this issue in PR/commit https://github.com/telcoin/telcoin-contracts/pull/3.
 
+**spacegliderrrr**
+
+Fix looks good, blacklisted addresses can no longer send and receive tokens.
+
+**sherlock-admin4**
+
+The Lead Senior Watson signed off on the fix.
+
 # Issue M-2: Not all ERC20 tokens can be bridged because of hardcoded `PREDICATE_ADDRESS` 
 
 Source: https://github.com/sherlock-audit/2024-02-telcoin-platform-audit-update-judging/issues/26 
@@ -288,4 +296,12 @@ Escalations have been resolved successfully!
 
 Escalation status:
 - [ABDUullahi](https://github.com/sherlock-audit/2024-02-telcoin-platform-audit-update-judging/issues/26/#issuecomment-1994363328): rejected
+
+**spacegliderrrr**
+
+Fix looks good, stuck tokens can now be retrieved by contract owner.
+
+**sherlock-admin4**
+
+The Lead Senior Watson signed off on the fix.
 
